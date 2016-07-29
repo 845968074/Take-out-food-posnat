@@ -2,46 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6325d6de-e9cb-4fb9-9cbb-6b062351911d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/command/Command-respones.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/command/Command.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/command/GoToBrcodeToZipcodepage-class.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/command/GoToZiptoBarcodepage-class.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/command/Othercommand-class.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/command/TranslateBarcodetoZipCodeCommand-class.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/command/TranslateZipcodetoBarcodeCommand-class.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/command/maincommand-class.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/barcodetranslateZipCode.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/responesTranslate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/zipCodeTranslate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/route/route-class.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/route/route.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/run-specs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/Command-class-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/Command-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/Translate-class-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/core-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/j.text" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/route-class-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/route-spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/allcodes.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/best-charge-spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/best-charge.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/promotions.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/take-out-food.iml" afterPath="$PROJECT_DIR$/.idea/take-out-food.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/command/Exit-class.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/jasmine/boot.js" afterPath="$PROJECT_DIR$/lib/jasmine/boot.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/jasmine/console.js" afterPath="$PROJECT_DIR$/lib/jasmine/console.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/jasmine/jasmine-html.js" afterPath="$PROJECT_DIR$/lib/jasmine/jasmine-html.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/jasmine/jasmine.css" afterPath="$PROJECT_DIR$/lib/jasmine/jasmine.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/jasmine/jasmine.js" afterPath="$PROJECT_DIR$/lib/jasmine/jasmine.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.css" afterPath="$PROJECT_DIR$/public/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run-specs.html" afterPath="$PROJECT_DIR$/run-specs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/items.js" afterPath="$PROJECT_DIR$/src/items.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/command/GoToBrcodeToZipcodepage-class.js" afterPath="$PROJECT_DIR$/command/GoToBrcodeToZipcodepage-class.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/command/GoToZiptoBarcodepage-class.js" afterPath="$PROJECT_DIR$/command/GoToZiptoBarcodepage-class.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/command/Othercommand-class.js" afterPath="$PROJECT_DIR$/command/Othercommand-class.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/command/TranslateZipcodetoBarcodeCommand-class.js" afterPath="$PROJECT_DIR$/command/TranslateZipcodetoBarcodeCommand-class.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/barcodetranslateZipCode.js" afterPath="$PROJECT_DIR$/core/barcodetranslateZipCode.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/zipCodeTranslate.js" afterPath="$PROJECT_DIR$/core/zipCodeTranslate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/route/route-class.js" afterPath="$PROJECT_DIR$/route/route-class.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/Command-class-spec.js" afterPath="$PROJECT_DIR$/spec/Command-class-spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/route-class-spec.js" afterPath="$PROJECT_DIR$/spec/route-class-spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/route-spec.js" afterPath="$PROJECT_DIR$/spec/route-spec.js" />
     </list>
     <ignored path="take-out-food.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,104 +37,62 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="route-class.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="route-class.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/route/route-class.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+            <state relative-caret-position="486">
+              <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
               <folding>
-                <element signature="e#1361#2064#0" expanded="false" />
+                <element signature="e#1684#2387#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="maincommand-class.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/command/maincommand-class.js">
+      <file leaf-file-name="zipCodeTranslate.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/zipCodeTranslate.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="182">
+              <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!block;n#allcodes#0;n#ziptranslate#0" expanded="false" />
+                <element signature="e#2188#2262#0" expanded="false" />
+                <element signature="e#2316#2371#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TranslateZipcodetoBarcodeCommand-class.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/command/TranslateZipcodetoBarcodeCommand-class.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TranslateBarcodetoZipCodeCommand-class.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/command/TranslateBarcodetoZipCodeCommand-class.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoToZiptoBarcodepage-class.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/command/GoToZiptoBarcodepage-class.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="route.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/route/route.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="32" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="run-specs.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/run-specs.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Othercommand-class.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/command/Othercommand-class.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="route-class-spec.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="route-class-spec.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/route-class-spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+            <state relative-caret-position="331">
+              <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="route-spec.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/route-spec.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="777">
+              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Command.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/command/Command.js">
+      <file leaf-file-name="barcodetranslateZipCode.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/barcodetranslateZipCode.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-              <folding />
+            <state relative-caret-position="145">
+              <caret line="73" column="9" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
+              <folding>
+                <element signature="e#2650#2695#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -206,20 +137,25 @@
         <option value="$PROJECT_DIR$/command/respones-Command.js" />
         <option value="$PROJECT_DIR$/command/command-class.js" />
         <option value="$PROJECT_DIR$/command/Command-respones.js" />
-        <option value="$PROJECT_DIR$/command/GoToBrcodeToZipcodepage-class.js" />
         <option value="$PROJECT_DIR$/command/Command.js" />
         <option value="$PROJECT_DIR$/core/core.js" />
         <option value="$PROJECT_DIR$/spec/Command-spec.js" />
         <option value="$PROJECT_DIR$/spec/core-spec.js" />
-        <option value="$PROJECT_DIR$/route/route.js" />
-        <option value="$PROJECT_DIR$/spec/route-spec.js" />
-        <option value="$PROJECT_DIR$/spec/Command-class-spec.js" />
         <option value="$PROJECT_DIR$/command/maincommand-class.js" />
-        <option value="$PROJECT_DIR$/command/TranslateZipcodetoBarcodeCommand-class.js" />
-        <option value="$PROJECT_DIR$/spec/route-class-spec.js" />
-        <option value="$PROJECT_DIR$/command/GoToZiptoBarcodepage-class.js" />
         <option value="$PROJECT_DIR$/command/TranslateBarcodetoZipCodeCommand-class.js" />
+        <option value="$PROJECT_DIR$/route/route.js" />
+        <option value="$PROJECT_DIR$/command/Othercommand-class.js" />
+        <option value="$PROJECT_DIR$/command/Exit-class.js" />
+        <option value="$PROJECT_DIR$/main.js" />
+        <option value="$PROJECT_DIR$/core/barcodetranslateZipCode.js" />
+        <option value="$PROJECT_DIR$/spec/route-spec.js" />
+        <option value="$PROJECT_DIR$/command/GoToZiptoBarcodepage-class.js" />
+        <option value="$PROJECT_DIR$/command/GoToBrcodeToZipcodepage-class.js" />
+        <option value="$PROJECT_DIR$/command/TranslateZipcodetoBarcodeCommand-class.js" />
         <option value="$PROJECT_DIR$/route/route-class.js" />
+        <option value="$PROJECT_DIR$/core/zipCodeTranslate.js" />
+        <option value="$PROJECT_DIR$/spec/Command-class-spec.js" />
+        <option value="$PROJECT_DIR$/spec/route-class-spec.js" />
       </list>
     </option>
   </component>
@@ -290,7 +226,49 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="spec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="posnat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="posnat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="route" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="posnat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="posnat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="posnat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="posnat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="command" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -430,15 +408,15 @@
       <workItem from="1469580789611" duration="38865000" />
       <workItem from="1469667489633" duration="26888000" />
       <workItem from="1469709674252" duration="11611000" />
-      <workItem from="1469753403886" duration="4584000" />
+      <workItem from="1469753403886" duration="23705000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157473000" />
+    <option name="totallyTimeSpent" value="176594000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="85" y="52" width="1271" height="716" extended-state="5" />
+    <frame x="85" y="52" width="1271" height="716" extended-state="4" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27301338" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -448,7 +426,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48205927" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20294599" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24648985" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45142004" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -478,24 +456,23 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/run-specs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/core-spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3348">
-          <caret line="186" column="5" selection-start-line="186" selection-start-column="5" selection-end-line="186" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/core.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#833#859#0" expanded="false" />
+            <element signature="e#869#894#0" expanded="false" />
+            <element signature="e#1478#1594#0" expanded="false" />
+            <element signature="e#1518#1588#0" expanded="false" />
+            <element signature="e#1631#1682#0" expanded="false" />
+            <element signature="e#1992#2079#0" expanded="false" />
+            <element signature="e#2130#2265#0" expanded="false" />
+            <element signature="e#2206#2237#0" expanded="false" />
+            <element signature="e#2540#2615#0" expanded="false" />
+            <element signature="e#2818#2918#0" expanded="false" />
+            <element signature="e#3265#3304#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -517,6 +494,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -524,6 +502,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3348">
           <caret line="186" column="5" selection-start-line="186" selection-start-column="5" selection-end-line="186" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -531,6 +510,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#833#859#0" expanded="false" />
+            <element signature="e#869#894#0" expanded="false" />
+            <element signature="e#1478#1594#0" expanded="false" />
+            <element signature="e#1518#1588#0" expanded="false" />
+            <element signature="e#1631#1682#0" expanded="false" />
+            <element signature="e#1992#2079#0" expanded="false" />
+            <element signature="e#2130#2265#0" expanded="false" />
+            <element signature="e#2206#2237#0" expanded="false" />
+            <element signature="e#2540#2615#0" expanded="false" />
+            <element signature="e#2818#2918#0" expanded="false" />
+            <element signature="e#3265#3304#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -552,6 +544,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -566,6 +559,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2718">
           <caret line="151" column="47" selection-start-line="151" selection-start-column="47" selection-end-line="151" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -573,6 +567,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="e#833#859#0" expanded="false" />
+            <element signature="e#869#894#0" expanded="false" />
+            <element signature="e#1478#1594#0" expanded="false" />
+            <element signature="e#1518#1588#0" expanded="false" />
+            <element signature="e#1631#1682#0" expanded="false" />
+            <element signature="e#1992#2079#0" expanded="false" />
+            <element signature="e#2130#2265#0" expanded="false" />
+            <element signature="e#2206#2237#0" expanded="false" />
+            <element signature="e#2540#2615#0" expanded="false" />
+            <element signature="e#2818#2918#0" expanded="false" />
+            <element signature="e#3265#3304#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -629,6 +636,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -659,41 +667,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/core.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1495">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/responesTranslate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/barcodetranslateZipCode.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/zipCodeTranslate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/Translate-class-spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -701,13 +675,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1549">
           <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/route-spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -726,60 +694,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/command/GoToBrcodeToZipcodepage-class.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="75" selection-start-line="5" selection-start-column="75" selection-end-line="5" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/Command-class-spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-          <folding>
-            <element signature="e#1090#1241#0" expanded="false" />
-            <element signature="e#1612#1763#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/command/Command.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/route-class-spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/route/route.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="32" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run-specs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/command/TranslateZipcodetoBarcodeCommand-class.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -792,36 +710,171 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/run-specs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/route/route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/command/Exit-class.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/core.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+          <folding>
+            <element signature="e#833#859#0" expanded="false" />
+            <element signature="e#869#894#0" expanded="false" />
+            <element signature="e#1478#1594#0" expanded="false" />
+            <element signature="e#1518#1588#0" expanded="false" />
+            <element signature="e#1631#1682#0" expanded="false" />
+            <element signature="e#1992#2079#0" expanded="false" />
+            <element signature="e#2130#2265#0" expanded="false" />
+            <element signature="e#2206#2237#0" expanded="false" />
+            <element signature="e#2540#2615#0" expanded="false" />
+            <element signature="e#2818#2918#0" expanded="false" />
+            <element signature="e#3265#3304#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/responesTranslate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/barcodetranslateZipCode.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="73" column="9" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
+          <folding>
+            <element signature="e#2650#2695#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/Translate-class-spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/command/Othercommand-class.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="144">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/command/GoToBrcodeToZipcodepage-class.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="71" selection-start-line="1" selection-start-column="71" selection-end-line="1" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/zipCodeTranslate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!block;n#allcodes#0;n#ziptranslate#0" expanded="false" />
+            <element signature="e#2188#2262#0" expanded="false" />
+            <element signature="e#2316#2371#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/command/TranslateBarcodetoZipCodeCommand-class.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
+        <state relative-caret-position="18">
           <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spec/Command-class-spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3">
+          <caret line="46" column="38" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
+          <folding>
+            <element signature="e#1088#1239#0" expanded="false" />
+            <element signature="e#1608#1759#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/command/GoToZiptoBarcodepage-class.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="36">
+          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/command/TranslateZipcodetoBarcodeCommand-class.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/route-spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/route/route-class.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        <state relative-caret-position="486">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
           <folding>
-            <element signature="e#1361#2064#0" expanded="false" />
+            <element signature="e#1684#2387#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/route-class-spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>

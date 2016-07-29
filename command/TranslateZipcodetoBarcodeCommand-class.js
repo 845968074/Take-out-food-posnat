@@ -8,6 +8,7 @@ class translateZipCodetoBarcodeCommand {
   execute(codes) {
     let zipChecke = new checke();
     let hasZipcode = zipChecke.checkeFormatZip(codes);
+    //console.log(hasZipcode);
     if (hasZipcode === false) {
       let text = "please input right input";
       let next =this.goToZipToBarcode;

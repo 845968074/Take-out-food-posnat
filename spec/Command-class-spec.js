@@ -20,7 +20,7 @@ Please input your choices(1~3)`;
     let number = '1';
     let putZipCode = new goToZiptoBarcode(number);
     let text = `Please input zip code:`;
-    let newmapping = {"*": new translateZipcodeTobarcode(goToZiptoBarcode).execute};
+    let newmapping = {"*": new translateZipcodeTobarcode(new goToZiptoBarcode())};
     /* console.log(newmapping);
      console.log(putZipCode.execute()._newmapping);
      console.log(text);
@@ -32,7 +32,7 @@ Please input your choices(1~3)`;
     let number = '2';
     let putbarcode = new goToBrcodetoZipcode(number);
     let text = `Please input bar code:`;
-    let newmapping = {"*": new translateBarocdeToZipCode(goToBrcodetoZipcode).execute};
+    let newmapping = {"*": new translateBarocdeToZipCode(new goToBrcodetoZipcode())};
     /* console.log(newmapping);
      console.log(putZipCode.execute()._newmapping);
      console.log(text);
@@ -42,9 +42,9 @@ Please input your choices(1~3)`;
   });
   it("#4:translateZipCodetoBarcodeCommand", function () {
     let code = 'aaa';
-    let transcode = new translateZipcodeTobarcode(new goToZiptoBarcode().execute());
+    let transcode = new translateZipcodeTobarcode(new goToZiptoBarcode());
     let text = "please input right input";
-    let next = new goToZiptoBarcode().execute();
+    let next = new goToZiptoBarcode();
     /*console.log(next);
      console.log(transcode.execute(code)._next);*/
     expect(transcode.execute(code)._text).toEqual(text);
@@ -52,7 +52,7 @@ Please input your choices(1~3)`;
   });
   it("#5:translateZipCodetoBarcodeCommand", function () {
     let code = '45056-1234';
-    let transcode = new translateZipcodeTobarcode(new goToZiptoBarcode().execute());
+    let transcode = new translateZipcodeTobarcode(new goToZiptoBarcode());
     let text = '|:|::|:|:|:||::::|:|::||:::::||::|:|::||::|::|||:::|';
     let reset = true;
     expect(transcode.execute(code)._text).toEqual(text);
@@ -60,9 +60,9 @@ Please input your choices(1~3)`;
   });
   it("#6:translateBarcodetoZipCodeCommand", ()=> {
     let code = ':|:|:|';
-    let transcode = new translateBarocdeToZipCode(new goToBrcodetoZipcode().execute());
+    let transcode = new translateBarocdeToZipCode(new goToBrcodetoZipcode());
     let text = "please input right input";
-    let next = new goToBrcodetoZipcode().execute();
+    let next = new goToBrcodetoZipcode();
     /*console.log(next);
      console.log(transcode.execute(code)._next);*/
     expect(transcode.execute(code)._text).toEqual(text);
@@ -70,7 +70,7 @@ Please input your choices(1~3)`;
   });
   it("#7:translateBarcodetoZipCodeCommand", ()=> {
     let code = '|:|::|:|:|:||::::|:|::||:::::||::|:|::||::|::|||:::|';
-    let transcode = new translateBarocdeToZipCode(new goToBrcodetoZipcode().execute());
+    let transcode = new translateBarocdeToZipCode(new goToBrcodetoZipcode());
     let text = '45056-1234';
     let reset = true;
     //console.log(transcode.execute(code)._text);

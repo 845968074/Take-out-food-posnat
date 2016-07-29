@@ -2,7 +2,7 @@ class Exit
 {
   execute()
   {
-    return {_text:"Exit"};
+   return {_text:"Exit"};
   }
 }
 module.exports =Exit;

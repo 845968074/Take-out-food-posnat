@@ -1,45 +1,60 @@
 let mainCommand=require("../command/maincommand-class");
 let command1=require("../command/GoToZiptoBarcodepage-class");
 let command2=require("../command/GoToBrcodeToZipcodepage-class");
+let command3=require("../command/Exit-class");
 let mapping={
   "1":new command1(),
   "2":new command2(),
- // "3":command3,
+   "3":new command3(),
   "main":new mainCommand()
 };
+function executeCommand(command, input) {
+  if (command.execute) {
+    return command.execute(input);
+  } else {
+    return command(input);
+  }
+}
 class route
 {
+  constructor() {
+    this.mapping={
+      "1":new command1(),
+      "2":new command2(),
+      "3":new command3(),
+      "main":new mainCommand()}
+  }
   execute(input) {
     let response;
-    let command = mapping[input];
+    let command =this.mapping[input];
     let result = "";
     if (command) {
       response =command.execute();
       result += response._text;
-    } else if (mapping[0]["*"]) {
-      response = mapping[0]["*"](input);
+    } else if (this.mapping["*"]) {
+     //response = this.mapping["*"](input);
+      response=executeCommand(this.mapping["*"],input);
+      //console.log(response);
       result += response._text;
-      var responesnext=mapping[1];
     } else {
       return "no command";
 
     }
-    if(response.reset){
-      mapping={
-        "1":command1,
-        "2":command2,
-        //"3":command3,
-        "main":mainCommand
-      };
+    if(response._restet){
+      this.mapping={
+        "1":new command1(),
+        "2":new command2(),
+        "3":new command3(),
+        "main":new mainCommand()};
+      result+=this.mapping["main"].execute()._text;
     }
     if (response._newmapping) {
-      mapping = [response._newmapping,command];
+     this.mapping=response._newmapping;
     }
-    if (responesnext&&(!response._restet)) {
+    if (response._next) {
       let newResponse;
       do {
-      //  console.log(responesnext);
-        newResponse = responesnext.execute();
+        newResponse = response._next.execute();
         result += "\n";
         result += newResponse._text;
       } while (newResponse.next);
@@ -48,12 +63,7 @@ class route
   }
 }
 route.reset=function () {
-  mapping={
-    "1":new command1(),
-    "2":new command2(),
-//  "3":command3,
-    "main":new mainCommand()
-  };
+this.mapping
 };
 module.exports=route;
 

@@ -56,21 +56,28 @@ class ziptranslate {
       }
     ];
   }
+ getCompare(array,id) {
+   return array.find((arry) =>arry.id==id);
+}
   checkeFormatZip(zipcodes) {
-    let reg =new RegExp(/[A-Za-z]+/g);
-    let hasLetter =reg.test(zipcodes);
-    //console.log(hasLetter);
-    if(hasLetter===true)
+ /*  let reg =new RegExp(/[A-Za-z]+/g);
+    let hasLetter =reg.test(zipcodes);*/
+// let hasLetter=true;
+    let code=this.getFormatZip(zipcodes);
+    let hasLetter=true;
+    for(let i=0;i<code.length;i++)
     {
-      hasLetter=false;
+     var  hascode=this.getCompare(this.allcodes(),code[i]);
+      if(hascode===undefined) {
+        hasLetter=false;}
     }
-    else
+    let haspost=true;
+    if(_.includes(zipcodes,"-"))
     {
-      hasLetter=true;
+       haspost=zipcodes.indexOf("-") === zipcodes.lastIndexOf("-")&&zipcodes.indexOf("-")===5;
     }
-    //console.log(hasLetter);
     let hascodes = hasLetter && (zipcodes.length === 10 || zipcodes.length === 5
-      || (zipcodes.length === 9 && (zipcodes.indexOf("-") === zipcodes.lastIndexOf("-"))));
+      || zipcodes.length === 9 )&&haspost;
     return hascodes === true ? zipcodes : false;
   }
   getFormatZip(testedZipCode) {

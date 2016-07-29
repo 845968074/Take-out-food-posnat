@@ -5,7 +5,7 @@ class  goToZiptoBarcodePage
 {
   execute() {
     let text=`Please input zip code:`;
-    let newmapping={"*":new translateZipCodetoBarcodeCommand(new goToZiptoBarcodePage()).execute};
+    let newmapping={"*":new translateZipCodetoBarcodeCommand(this)};
     return new respones(text,newmapping,false,false);
   }
 

@@ -56,19 +56,24 @@ class barcodetranslate {
       }
     ];
   }
+  getCompare(array,id) {
+    return array.find((arry) =>arry.bar_code==id);
+  }
   checkFormatBarcodes(barcodes) {
     for (let i = 0; i < barcodes.length; i++) {
       var hasBarcodes = _.isEqual(barcodes[i], ':') || _.isEqual(barcodes[i], '|');
     }
-    //console.log(hasBarcodes);
     if(hasBarcodes)
     {
       if(barcodes.length==52||barcodes.length==32||barcodes.length==57)
       {
-        hasBarcodes=true;
+        let codes=this.getFormatBarcodes(barcodes);
+        for(let i=0;i<codes.length;i++) {
+          hasBarcodes= this.getCompare(this.allcodes(),codes[i].bar_code);
+          if(hasBarcodes===undefined) return hasBarcodes=false;
+        }
       }else  hasBarcodes=false;
     }
-    // console.log(hasBarcodes);
     return hasBarcodes ? barcodes : false;
   }
   getFormatBarcodes(testedBarcodes) {
@@ -77,7 +82,6 @@ class barcodetranslate {
     for (let i = 0; i < newBarcodes.length; i = i + 5) {
       formatBarcodes.push({bar_code: newBarcodes.substring(i, i + 5)});
     }
-    //console.log(formatBarcodes);
     return formatBarcodes;
   }
   matchbyZipCode(formatBarcodes) {

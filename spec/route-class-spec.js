@@ -1,4 +1,5 @@
-let routing = require("../route/route-class");
+/*let routing = require("../route/route-class");
+// routing=require("../main");
 describe("route", ()=> {
  beforeEach(()=> {
       routing.reset();
@@ -24,9 +25,13 @@ Please input your choices(1~3)`;
     expect(menu.execute("2")).toEqual(expected);
   });
   it("@3:translateZiptoBarcode is right", ()=> {
-    new routing().execute("1");
+   // new routing().execute("1");
     let response = new routing();
-    let expected = '|:|::|:|:|:||::::|:|::||:::::||::|:|::||::|::|||:::|';
+    let expected = '|:|::|:|:|:||::::|:|::||:::::||::|:|::||::|::|||:::|'+`
+1. Translate zip code to bar code
+2. Translate bar code to zip code
+3. Quit
+Please input your choices(1~3)`;
     expect(response.execute('45056-1234')).toEqual(expected);
   });
   it("@4:translateZiptoBarcode is error", ()=> {
@@ -38,13 +43,19 @@ Please input your choices(1~3)`;
   it("@5:translateBarcodetoZip is right", ()=> {
     new routing().execute("2");
     let response = new routing();
-    let expected = '45056-1234';
+    let expected = '45056-1234'+`
+1. Translate zip code to bar code
+2. Translate bar code to zip code
+3. Quit
+Please input your choices(1~3)`;;
     expect(response.execute('|:|::|:|:|:||::::|:|::||:::::||::|:|::||::|::|||:::|')).toEqual(expected);
   });
-  it("@6:translateBarcodetoZip is error", ()=> {
+  fit("@6:translateBarcodetoZip is error", ()=> {
     new routing().execute("2");
     let response = new routing();
+    console.log(response.execute('|:|::|:|:|:||::::|:a|::||:::::||::|:|::||::|::|||:::|'));
     let expected = "please input right input\nPlease input bar code:";
     expect(response.execute('|:|::|:|:|:||::::|:a|::||:::::||::|:|::||::|::|||:::|')).toEqual(expected);
   });
-});
+});*/
+
